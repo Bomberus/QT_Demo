@@ -11,6 +11,13 @@ ApplicationWindow {
     height: 480
     title: qsTr("Hello World")
 
+    Connections{
+        target: receiver
+        onSendToQml: {
+            root.title = count
+        }
+    }
+
     toolBar: ToolBar {
         id: mainToolbar
         RowLayout {
@@ -36,6 +43,9 @@ ApplicationWindow {
                 Layout.fillWidth: true
                 value: 50
                 maximumValue: 100
+                onValueChanged: {
+                    receiver.receiveFromQml(value)
+                }
             }
             TextField{
                 id: searchText
