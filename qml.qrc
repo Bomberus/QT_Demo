@@ -1,7 +1,4 @@
 <RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-    </qresource>
     <qresource prefix="/icons">
         <file>icons/wheely.png</file>
     </qresource>

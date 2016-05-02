@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>icons/wheely.png</file>
+        <file>mainForm.qml</file>
     </qresource>
 </RCC>

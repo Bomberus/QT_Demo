@@ -24,7 +24,7 @@ ApplicationWindow {
             width: parent.width
             ToolButton{
                 text: "Hier bin ich"
-                iconSource: "icons/icons/wheely.png"
+                iconSource: "/icons/wheely.png"
                 onClicked: root.color = "red"
             }
             ToolButton{

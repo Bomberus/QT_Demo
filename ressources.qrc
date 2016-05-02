@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/forms">
+        <file>mainForm.qml</file>
+    </qresource>
+    <qresource prefix="/icons"/>
+</RCC>
