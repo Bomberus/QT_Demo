@@ -5,7 +5,8 @@ QT += qml quick widgets
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    receiver.cpp
+    receiver.cpp \
+    profile.cpp
 
 RESOURCES += \
     forms.qrc \
@@ -21,4 +22,5 @@ DISTFILES += \
     mainForm.qml
 
 HEADERS += \
-    receiver.h
+    receiver.h \
+    profile.h

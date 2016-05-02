@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>mainForm.qml</file>
+        <file>profileForm.qml</file>
     </qresource>
 </RCC>
