@@ -19,7 +19,8 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 DISTFILES += \
-    mainForm.qml
+    mainForm.qml \
+    profileForm.qml
 
 HEADERS += \
     receiver.h \
